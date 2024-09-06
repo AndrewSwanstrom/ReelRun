@@ -1,0 +1,1 @@
+Use this folder for anything code related to UI; feel free to create subfolders. ONLY CODE AND BLUEPRINTS SHOULD GO IN THIS FOLDER, NO LARGE ART ASSETS

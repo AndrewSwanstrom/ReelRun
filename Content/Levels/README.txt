@@ -1,0 +1,1 @@
+Use this folder ONLY for levels and their corresponding generated asset files; feel free to create subfolders. ONLY CODE AND BLUEPRINTS SHOULD GO IN THIS FOLDER, NO LARGE ART ASSETS
