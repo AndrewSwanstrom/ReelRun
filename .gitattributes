@@ -2,3 +2,4 @@
 * text=auto
 
 Content/Art/** filter=lfs diff=lfs merge=lfs -text
+Content/Levels/** filter=lfs diff=lfs merge=lfs -text
