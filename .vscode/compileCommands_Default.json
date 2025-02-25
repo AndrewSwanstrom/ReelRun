@@ -1,5 +1,13 @@
 [
 	{
+		"file": "C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\Source\\ReelRun\\Private\\MyBlueprintFunctionLibrary.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\.vscode\\compileCommands_Default\\ReelRun.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\Source\\ReelRun\\Private\\MyCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
@@ -8,7 +16,31 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
 	},
 	{
+		"file": "C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\Source\\ReelRun\\Private\\MyFunctionalUIScreenshotTest.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\.vscode\\compileCommands_Default\\ReelRun.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\Source\\ReelRun\\Public\\MyBlueprintFunctionLibrary.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\.vscode\\compileCommands_Default\\ReelRun.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\Source\\ReelRun\\Public\\MyCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\.vscode\\compileCommands_Default\\ReelRun.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\Source\\ReelRun\\Public\\MyFunctionalUIScreenshotTest.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
 			"@C:\\Users\\Zong\\Documents\\Unreal Projects\\ReelRun\\.vscode\\compileCommands_Default\\ReelRun.1.rsp"
