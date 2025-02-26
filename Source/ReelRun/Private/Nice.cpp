@@ -3,3 +3,8 @@
 
 #include "Nice.h"
 
+void UNice::Hello()
+{
+	
+}
+

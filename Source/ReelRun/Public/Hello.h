@@ -13,5 +13,10 @@ UCLASS()
 class REELRUN_API UHello : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
+public:
+
+	UFUNCTION(BlueprintCallable, Category = "What's up, Babygirl")
+	static void Interesting();
+	
 	
 };

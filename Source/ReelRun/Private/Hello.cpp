@@ -3,3 +3,7 @@
 
 #include "Hello.h"
 
+void UHello::Interesting()
+{
+	
+}
