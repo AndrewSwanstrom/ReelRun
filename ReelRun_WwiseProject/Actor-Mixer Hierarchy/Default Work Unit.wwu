@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F703D9DD-631F-4935-A3FD-0F69718B05D5}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{F703D9DD-631F-4935-A3FD-0F69718B05D5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="a_Toyota_Engine" ID="{63ED9171-1A05-42B6-AB25-0C450AFBAEC7}" ShortID="200891389">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+						<Property Name="LoopCount" Type="int32" Value="3"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-750</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BEA32373-36F4-4F72-87D9-9EC1309AA363}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1375"/>
+											<Property Name="Min" Type="Real64" Value="-1225"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{297BD63F-063F-4BC5-91A7-9BC35C616DCD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FF50B6C7-54F1-41D1-BCAB-A0DA9F58FEDE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VEHCar_Toyota GT86 Idle Interior Stereo_B00M_Licensing" ID="{4CC79EDB-EF02-482E-9774-55710FFD5AA4}">
+							<Language>SFX</Language>
+							<AudioFile>VEHCar_Toyota GT86 Idle Interior Stereo_B00M_Licensing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="626018401"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VEHCar_Toyota GT86 Idle Interior Stereo_B00M_Licensing" ID="{4CC79EDB-EF02-482E-9774-55710FFD5AA4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

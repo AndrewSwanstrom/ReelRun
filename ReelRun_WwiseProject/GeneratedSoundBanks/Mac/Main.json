@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{5A23049C-3865-4C4E-8B62-01161002241E}",
+    "Language": "SFX",
+    "Hash": "{21DF21C6-CE16-AE27-048A-3756FCB3420F}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "626018401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VEHCar_Toyota GT86 Idle Interior Stereo_B00M_Licensing.wav",
+      "CachePath": "7A/{7AB3F9D0-2F11-6789-3129-D772C09C9F83}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3823375448",
+      "Name": "Toyota_Engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Toyota_Engine",
+      "GUID": "{581B4267-CD4F-4615-85DB-8000B86D5D99}",
+      "DurationType": "OneShot",
+      "DurationMin": "22.224865",
+      "DurationMax": "99.78626",
+      "MediaRefs": [
+       {
+        "Id": "626018401"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{16E0B41C-3528-9A49-CDE0-63B98D6F77A4}"
+ }
+}

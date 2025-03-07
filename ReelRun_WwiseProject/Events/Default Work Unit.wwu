@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A7294203-A2B4-464F-BFFC-E4270070466B}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A7294203-A2B4-464F-BFFC-E4270070466B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Toyota_Engine" ID="{581B4267-CD4F-4615-85DB-8000B86D5D99}">
+					<ChildrenList>
+						<Action Name="" ID="{4F50BA3C-7279-468D-95A9-2CB27EF87236}" ShortID="119147754">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="a_Toyota_Engine" ID="{63ED9171-1A05-42B6-AB25-0C450AFBAEC7}" WorkUnitID="{F703D9DD-631F-4935-A3FD-0F69718B05D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

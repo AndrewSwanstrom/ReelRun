@@ -72,3 +72,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#Don't ugnore WWise .dll and .lib files as there are needed for compiling
+!Plugins/Wwise/*.dll
+!Plugins/Wwise/*.lib
