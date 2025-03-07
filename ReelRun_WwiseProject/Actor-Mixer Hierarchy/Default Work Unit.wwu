@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{917AF3E3-7B29-44C2-B51C-D43D461AA45B}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{917AF3E3-7B29-44C2-B51C-D43D461AA45B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Toyota_engine" ID="{058DD366-D3A1-4B1D-9B1C-EFD9D066C645}" ShortID="153413833">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+						<Property Name="LoopCount" Type="int32" Value="5"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5222603-08F3-4653-B579-50FC3498540A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DC669D6-9FAD-4A35-A501-06F325E1CC29}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VEHCar_Toyota GT86 Start Engine Intake_B00M_Licensing" ID="{2F47565E-4AFE-434E-B5D5-82F791DA03BE}">
+							<Language>SFX</Language>
+							<AudioFile>VEHCar_Toyota GT86 Start Engine Intake_B00M_Licensing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="381079987"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VEHCar_Toyota GT86 Start Engine Intake_B00M_Licensing" ID="{2F47565E-4AFE-434E-B5D5-82F791DA03BE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

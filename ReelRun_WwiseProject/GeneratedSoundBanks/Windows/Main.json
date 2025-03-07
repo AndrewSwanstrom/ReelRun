@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{E8E24B0E-B2A9-452B-98AD-7D65CC80F7EF}",
+    "Language": "SFX",
+    "Hash": "{5C454B07-F5F9-6B28-F65C-146052D17FCF}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "381079987",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VEHCar_Toyota GT86 Start Engine Intake_B00M_Licensing.wav",
+      "CachePath": "BB/{BB0EF265-FC9A-3F09-213C-F51E7384D5D1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3823375448",
+      "Name": "Toyota_Engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Toyota_Engine",
+      "GUID": "{A97255A9-091D-4AEA-B913-421FEAB24648}",
+      "DurationType": "OneShot",
+      "DurationMin": "23.95177",
+      "DurationMax": "23.95177",
+      "MediaRefs": [
+       {
+        "Id": "381079987"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D7611FA3-F1EC-13D2-17E7-FCC782C5A35D}"
+ }
+}

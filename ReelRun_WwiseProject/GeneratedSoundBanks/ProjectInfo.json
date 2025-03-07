@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "ReelRun_WwiseProject",
+   "GUID": "{4236D930-580C-4548-B256-E0985BCADAE4}",
+   "Generator": "2024.1.2.8726"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{B76A9E52-4CB8-485C-9F73-94723171C097}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{E4E7A94F-2901-4371-B494-45E052170415}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{8920D955-2D75-4086-83DA-D2C2BAAAD1A2}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{54D83354-3B40-32D9-474C-D293AA16086E}"
+ }
+}

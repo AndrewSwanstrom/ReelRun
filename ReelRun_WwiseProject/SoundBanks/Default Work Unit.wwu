@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B104C93-60AB-4862-A5F8-38B603C97A45}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{2B104C93-60AB-4862-A5F8-38B603C97A45}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{E8E24B0E-B2A9-452B-98AD-7D65CC80F7EF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Toyota_Engine" ID="{A97255A9-091D-4AEA-B913-421FEAB24648}" WorkUnitID="{F2E7AF4B-7031-4155-BBB1-AE4D9C14CB5B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

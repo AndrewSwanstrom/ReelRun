@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3823375448	Toyota_Engine			\Default Work Unit\Toyota_Engine	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	381079987	Toyota_engine	C:\Users\nikit\OneDrive\Documents\GitHub\ReelRun\ReelRun_WwiseProject\.cache\BB\{BB0EF265-FC9A-3F09-213C-F51E7384D5D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Toyota_engine		459970
+
