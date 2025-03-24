@@ -33,6 +33,10 @@
 		{
 			"Name": "GPULightmass",
 			"Enabled": true
+		},
+		{
+			"Name": "PreLoadScreenMoviePlayer",
+			"Enabled": true
 		}
 	]
 }
