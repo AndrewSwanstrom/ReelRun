@@ -40,6 +40,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Uproject.ReelRun.executor": "Run",
     "git-widget-placeholder": "<unknown>",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -174,6 +175,7 @@
       <workItem from="1740636019936" duration="14000" />
       <workItem from="1741293441485" duration="402000" />
       <workItem from="1742805924380" duration="1422000" />
+      <workItem from="1742826546813" duration="2751000" />
     </task>
     <servers />
   </component>

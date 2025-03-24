@@ -21,4 +21,7 @@ public:
 	virtual void BeginLoadingScreen(const FString& MapName);
 	UFUNCTION()
 	virtual void EndLoadingScreen(UWorld* InLoadedWorld);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Loading Screen")
+	TSubclassOf<class UUserWidget> LoadingScreenWidget;
 };
