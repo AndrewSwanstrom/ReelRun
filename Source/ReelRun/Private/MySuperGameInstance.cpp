@@ -15,16 +15,19 @@ void UMySuperGameInstance::Init()
 
 void UMySuperGameInstance::BeginLoadingScreen(const FString& MapName)
 {
-	if (GetMoviePlayer() -> IsMovieCurrentlyPlaying())
+#if WITH_EDITOR
+	// If GEngine is available, display a debug message
+	if (GEngine)
 	{
-		return;
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("Loading Start"));
 	}
+#endif
 
 	if (!IsRunningDedicatedServer())
 	{
 		FLoadingScreenAttributes LoadingScreen;
 		LoadingScreen.bAutoCompleteWhenLoadingCompletes = false;
-		LoadingScreen.MinimumLoadingScreenDisplayTime = 5.0f;
+		LoadingScreen.MinimumLoadingScreenDisplayTime = 2.0f;
 		UUserWidget* Widget = CreateWidget<UUserWidget>(GetWorld(), LoadingScreenWidget);
 		LoadingScreen.WidgetLoadingScreen = Widget -> TakeWidget();
 
@@ -34,6 +37,12 @@ void UMySuperGameInstance::BeginLoadingScreen(const FString& MapName)
 
 void UMySuperGameInstance::EndLoadingScreen(UWorld* InLoadedWorld)
 {
-	
+#if WITH_EDITOR
+	// Debug message to show that the loading screen has ended.
+	if (GEngine)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Green, TEXT("Loading End"));
+	}
+#endif
 }
 
